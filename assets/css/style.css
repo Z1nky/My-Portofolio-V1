@@ -11,8 +11,16 @@
     font-family: "Poppins", sans-serif;
 }
 
+.text-purple{
+    color: var(--thirdColor);
+}
+
 body{
     background-color: var(--mainColor);
+}
+
+section{
+    margin-top: 40px;
 }
 
 .navbar{
@@ -33,4 +41,43 @@ body{
 .navbar .navbar-nav li a:hover{
     color: var(--thirdColor);
 }
+
+/* Hero */
+
+.hero h2{
+    color: var(--textColor);
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.hero h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--textColor);
+}
+
+.hero p{
+    margin-bottom: 0;
+    font-size: 32px;
+    color: var(--textColor);
+}
+
+.line-hero{
+    width: 230px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--thirdColor);
+    margin-bottom: 30px;
+}
+
+.hero .button{
+    margin-top: 30px;
+    padding: 10px 80px;
+    background-color: transparent;
+    color: var(--textColor);
+    border: 3px solid var(--thirdColor);
+    border-radius: 40px;
+    font-size: 24px;
+}
+
 
