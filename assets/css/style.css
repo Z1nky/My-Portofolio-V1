@@ -20,7 +20,11 @@ body{
 }
 
 section{
-    margin-top: 40px;
+    margin-top: 80px;
+}
+
+.container-fluid{
+    background-color: var(--secondColor);
 }
 
 .navbar{
@@ -79,5 +83,41 @@ section{
     border-radius: 40px;
     font-size: 24px;
 }
+
+
+.about h1{
+    padding-top: 50px;
+    font-size: 48px;
+    color: var(--textColor);
+}
+
+.line-about{
+    width: 230px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--thirdColor);
+    margin-bottom: 80px;
+}
+
+.about p{
+    text-align: center;
+    color: var(--textColor);
+    font-size: 32px;
+}
+
+.about figure{
+    margin-top: 70px;
+}
+
+.about figure p {
+    font-size: 24px;
+}
+
+.about figure figcaption cite p{
+    font-size: 16px;
+    padding-bottom: 130px;
+}
+
+
 
 
