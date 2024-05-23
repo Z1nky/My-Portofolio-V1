@@ -153,6 +153,10 @@ section{
     margin-bottom: 80px;
 }
 
+.project-img{
+    padding-bottom: 80px;
+}
+
 .project img{
     width: 100%;
 }
@@ -194,6 +198,29 @@ section{
     content: 'Sistem Data Karyawan';
 }
 
+
+.contact h1{    
+    font-size: 48px;
+    color: var(--textColor);
+}
+
+.line-contact{
+    width: 260px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--thirdColor);
+    margin-bottom: 80px;
+}
+
+.contact-item{
+    width: 580px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: var(--secondColor);
+    font-size: 36px;
+    color: var(--textColor);
+    border-radius: 30px;
+}
 
 
 
