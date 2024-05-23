@@ -223,5 +223,20 @@ section{
 }
 
 
+.thanks h1{    
+    padding-top: 100px;
+    font-size: 48px;
+    color: var(--textColor);
+
+}
+
+.line-thanks{
+    width: 300px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--thirdColor);
+    margin-bottom: 100px;
+}
+
 
 
