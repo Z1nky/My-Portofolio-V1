@@ -216,15 +216,29 @@ section{
 }
 
 .contact-item{
+    position: relative;
     width: 580px;
     text-align: center;
     margin-bottom: 40px;
+    padding: 10px 60px;
     background-color: var(--secondColor);
-    font-size: 36px;
+    font-size: 32px;
     color: var(--textColor);
     border-radius: 30px;
 }
 
+.contact-items{
+    top: 10px;
+    left: 30px;
+    width: 45px;
+}
+
+/* .contact-item::after{
+    position: absolute;
+    background-image: url("assets/img/🦆 icon _instagram_ .svg");
+    top: 0;
+    left: 0;
+} */
 
 .thanks h1{    
     padding-top: 100px;
@@ -326,17 +340,18 @@ section{
     }
 
     .contact-item{
-        width: 480px;
+        width: 380px;
         margin-bottom: 20px;
-        font-size: 28px;
+        padding: 20px 60px;
+        font-size: 18px;
     }
-
+    
     .project-img{
         padding-bottom: 0;
     }
 
     .about p{
-        text-align: center;
+        text-align: justify;
         color: var(--textColor);
         font-size: 24px;
     }
@@ -352,6 +367,12 @@ section{
     .about figure figcaption cite p{
         font-size: 12px;
         padding-bottom: 130px;
+    }
+
+    .contact-items{
+        top: 20px;
+        left: 20px;
+        width: 35px;
     }
 }
 
