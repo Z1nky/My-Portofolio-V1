@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allea Rakha Mahardhika | Portofolio V1</title>
+    <!-- Animated CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -16,7 +22,7 @@
 <body>
 
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top animate__animated animate__bounceInDown animate__fast">
         <div class="container p-3">
             <a class="navbar-brand fw-bolder fs-2" href="#">ARM.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -48,7 +54,7 @@
     <!-- Hero -->
     <section id="hero" class="hero container">
         <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 animate__animated animate__bounceInLeft animate__fast">
                 <h2>Hello,</h2>
                 <h1>I'm <span class="text-purple">Allea Rakha Mahardhika</span></h1>
                 <div class="line-hero"></div>
@@ -56,7 +62,8 @@
                 <p class="fw-semibold">Based in Indonesia</p>
                 <a href="assets/img/Allea Rakha Mahardhika_Resume.pdf" class="btn button fw-bold" download>Resume</a>
             </div>
-            <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+            <div
+                class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end animate__animated animate__bounceInRight animate__fast">
                 <img src="assets/img/Hero-Rakha-shadow.png" alt="">
             </div>
         </div>
@@ -65,11 +72,13 @@
     <!-- About -->
     <div class="container-fluid">
         <section id="about" class="about container">
-            <h1 class="text-center fw-bolder text-purple">About Me</h1>
-            <div class="d-flex justify-content-center">
-                <div class="line-about"></div>
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="text-center fw-bolder text-purple">About Me</h1>
+                <div class="d-flex justify-content-center">
+                    <div class="line-about"></div>
+                </div>
             </div>
-            <div class="row d-flex flex-column">
+            <div class="row d-flex flex-column" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
                 <div class="col d-flex justify-content-center">
                     <p class="w-100 mb-0 text-wrap">I’m a fresh graduate from SMK Media Informatika with a major
                         in
@@ -97,24 +106,31 @@
 
     <!-- Skills -->
     <section id="skills" class="skills container">
-        <h1 class="text-center fw-bolder text-purple">My Skills</h1>
-        <div class="d-flex justify-content-center">
-            <div class="line-skills"></div>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+            <h1 class="text-center fw-bolder text-purple">My Skills</h1>
+            <div class="d-flex justify-content-center">
+                <div class="line-skills"></div>
+            </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col-12 col-md-5 col-lg-4 text-center">
+            <div class="col-12 col-md-5 col-lg-4 text-center" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-delay="500">
                 <img src="assets/img/Html_icon.png" alt="html icon">
             </div>
-            <div class="col-12 col-md-5 col-lg-4 text-center">
+            <div class="col-12 col-md-5 col-lg-4 text-center" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-delay="700">
                 <img src="assets/img/Css_icon.png" alt="css icon">
             </div>
-            <div class="col-12 col-md-5 col-lg-4 text-center">
+            <div class="col-12 col-md-5 col-lg-4 text-center" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-delay="900">
                 <img src="assets/img/Js_icon.png" alt="js icon">
             </div>
-            <div class="col-12 col-md-5 col-lg-4 text-center">
+            <div class="col-12 col-md-5 col-lg-4 text-center" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-delay="1000">
                 <img src="assets/img/Bootstrap_icon.png" alt="bootstrap icon">
             </div>
-            <div class="col-12 col-md-5 col-lg-4 text-center">
+            <div class="col-12 col-md-5 col-lg-4 text-center" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-delay="1100">
                 <img src="assets/img/Figma_icon.png" alt="figma icon">
             </div>
         </div>
@@ -123,24 +139,31 @@
     <!-- Project -->
     <div class="container-fluid">
         <section id="project" class="project container">
-            <h1 class="text-center fw-bolder text-purple">My Projects</h1>
-            <div class="d-flex justify-content-center">
-                <div class="line-project"></div>
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="text-center fw-bolder text-purple">My Projects</h1>
+                <div class="d-flex justify-content-center">
+                    <div class="line-project"></div>
+                </div>
             </div>
             <div class="row d-flex justify-content-center project-img gap-4 project-img">
-                <div id="project-1" class="col-12 col-md-5 project-img-item">
+                <div id="project-1" class="col-12 col-md-5 project-img-item" data-aos="fade-right"
+                    data-aos-duration="1000">
                     <img src="assets/img/project_1.png" alt="" class="rounded-3">
                 </div>
-                <div id="project-2" class="col-12 col-md-5 project-img-item">
+                <div id="project-2" class="col-12 col-md-5 project-img-item" data-aos="fade-left"
+                    data-aos-duration="1000" data-aos-delay="300">
                     <img src="assets/img/project_2.png" alt="" class="rounded-3">
                 </div>
-                <div id="project-3" class="col-12 col-md-5 project-img-item">
+                <div id="project-3" class="col-12 col-md-5 project-img-item" data-aos="fade-right"
+                    data-aos-duration="1000" data-aos-delay="500">
                     <img src="assets/img/project_3.png" alt="" class="rounded-3">
                 </div>
-                <div id="project-4" class="col-12 col-md-5 project-img-item">
+                <div id="project-4" class="col-12 col-md-5 project-img-item" data-aos="fade-left"
+                    data-aos-duration="1000" data-aos-delay="700">
                     <img src="assets/img/project_4.png" alt="" class="rounded-3">
                 </div>
-                <div id="project-5" class="col-12 col-md-5 project-img-item">
+                <div id="project-5" class="col-12 col-md-5 project-img-item" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="800">
                     <img src="assets/img/project_5.png" alt="" class="rounded-3">
                 </div>
             </div>
@@ -149,12 +172,14 @@
 
     <!-- Contact Us -->
     <section id="contact" class="contact container">
-        <h1 class="text-center fw-bolder text-purple">Contact Us</h1>
-        <div class="d-flex justify-content-center">
-            <div class="line-contact"></div>
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="text-center fw-bolder text-purple">Contact Us</h1>
+            <div class="d-flex justify-content-center">
+                <div class="line-contact"></div>
+            </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col-10 d-flex justify-content-center">
+            <div class="col-10 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
                 <div class="contact-item position-relative">
                     <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="position-absolute contact-items">
@@ -169,7 +194,8 @@
                     </svg>
                     <span>rakha_allea</span></div>
             </div>
-            <div class="col-10 d-flex justify-content-center">
+            <div class="col-10 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="300">
                 <div class="contact-item">
                     <svg viewBox="0 0 56 41" fill="none" class="position-absolute contact-items"
                         xmlns="http://www.w3.org/2000/svg">
@@ -181,7 +207,8 @@
                     </svg>
                     <span>rakhaallea@gmail.com</span></div>
             </div>
-            <div class="col-10 d-flex justify-content-center">
+            <div class="col-10 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000"
+                data-aos-delay="500">
                 <div class="contact-item">
                     <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="position-absolute contact-items">
@@ -198,7 +225,8 @@
                     </svg>
                     <span>Allea Rakha Mahardhika</span></div>
             </div>
-            <div class="col-10 d-flex justify-content-center">
+            <div class="col-10 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="700">
                 <div class="contact-item">
                     <svg viewBox="0 0 54 60" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="position-absolute contact-items">
@@ -233,7 +261,7 @@
 
     <!-- Thanks -->
     <div class="container-fluid">
-        <section id="thanks" class="thanks container">
+        <section id="thanks" class="thanks container" data-aos="fade-up" data-aos-duration="1000">
             <h1 class="text-center fw-bolder text-purple">Thanks For Scrolling!</h1>
             <div class="d-flex justify-content-center">
                 <div class="line-thanks"></div>
@@ -247,6 +275,12 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
     <!-- My Script -->
