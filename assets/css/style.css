@@ -376,7 +376,11 @@ section{
     .contact-items{
         top: 20px;
         left: 20px;
-        width: 35px;
+        width: 30px;
+    }
+
+    .contact-item span{
+        font-size: 14px;
     }
 }
 
