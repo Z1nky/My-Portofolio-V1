@@ -84,11 +84,47 @@ section{
     color: var(--textColor);
     border: 3px solid var(--thirdColor);
     border-radius: 40px;
-    font-size: 24px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
 }
 
-.hero .button:hover{
+.hero .text{
+    font-size: 24px;
+    color: #EEF7FF;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+.hero .button .wave{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: url('../img/wave.svg');
+    background-size: 200% 100%;
+    top: 100%;
+    left: 0;
+    animation: wave 2s linear infinite;
+    transition: .5s;
+}
+
+.button:hover .wave{
+    top: 50%;
+}
+
+.button:hover{
     background-color: var(--thirdColor);
+    box-shadow: 6px 6px 0 #3B1B65;
+}
+
+@keyframes wave {
+    from{
+        background-position-x: 0;
+    }to{
+        background-position-x: 100%;
+    }
 }
 
 .about h1{
